@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		background-image: url("images/bg02.jpg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2060,7 +2060,7 @@ input, select, textarea {
 
 	#page-wrapper > section {
 		margin-bottom: 0;
-		
+		margin-top: 0;
 	}
 
 /* Header */
@@ -2085,7 +2085,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin:1em 0 0 0;
+		margin: 1.5em 0 0 0;
 	}
 
 		#nav > ul {
@@ -2095,7 +2095,7 @@ input, select, textarea {
 			#nav > ul > li {
 				display: inline-block;
 				/* font-style: italic; */
-				margin: 1em 0.35em 0 0.35em;
+				margin: 0 0.35em 0 0.35em;
 			}
 
 				#nav > ul > li > ul {
@@ -2628,7 +2628,6 @@ scale(1.1)
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 0;
 			}
 
 			#titleBar {
