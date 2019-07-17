@@ -2064,23 +2064,22 @@ input, select, textarea {
 	}
 
 /* Header */
-#logo{background: #CCE8F4; position:fixed;width:100%;top:0;z-index:2}
-
+#logo {background: #CCE8F4; position:fixed;width:100%;height:8em;z-index:5;top:0}
 	#header {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 0em 0 4em 0;
+		padding: 2em 0 4em 0;
 		text-align: center;
-		
 	}
 
 		#header h1 {
 			color: #252122;
 			font-weight: 900;
-			font-size: 2.5em;
+			font-size: 2em;
 			letter-spacing: -0.035em;
 			line-height: 1;
+			padding: 1em 0 0 0;
 		}
 
 /* Nav */
