@@ -2064,7 +2064,7 @@ input, select, textarea {
 	}
 
 /* Header */
-#logo{background: #CCE8F4; position:fixed;width:100%;top:0;z-index:2}
+#logo{background: #CCE8F4 url("../../images/pic01.jpg"); position:fixed;width:100%;top:0;z-index:2}
 
 	#header {
 		position: relative;
