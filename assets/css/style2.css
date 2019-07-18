@@ -1,6 +1,0 @@
-.text-replace{overflow:hidden;color:transparent;text-indent:100%;white-space:nowrap}
-.form-label{font-size:0.83333em;font-size:var(--text-sm)}:root{--cd-color-1:hsl(53, 29%, 95%);--cd-color-1-h:53;--cd-color-1-s:29%;--cd-color-1-l:95%;--cd-color-2:hsl(330, 13%, 42%);--cd-color-2-h:330;--cd-color-2-s:13%;--cd-color-2-l:42%;--cd-color-3:hsl(5, 76%, 62%);--cd-color-3-h:5;--cd-color-3-s:76%;--cd-color-3-l:62%;--cd-back-to-top-size: 256px;--cd-back-to-top-margin: 20px;--font-primary: 'Bitter', sans-serif;--font-secondary: 'Open Sans', sans-serif}
-@supports (--css: variables){@media {:root{--cd-back-to-top-size: 256px}}}
-.cd-top{position:fixed;bottom:20px;right:15px;display:inline-block;height:256px;width:256px;box-shadow:0 0 10px rgba(0,0,0,0.05);background:url(images/pic10.jpg) no-repeat center 50%;}
-.js .cd-top{visibility:hidden;opacity:0;transition:opacity .3s, visibility .3s, background-color .3s}
-.js .cd-top--is-visible{visibility:visible;opacity:1}
