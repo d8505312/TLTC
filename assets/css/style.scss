@@ -14,7 +14,7 @@
   @include defineColorHSL(--cd-color-3, 5, 76%, 62%); // Burnt Sienna
 
   // back-to-top 
-  --cd-back-to-top-size: 40px;
+  --cd-back-to-top-size: 256px;
   --cd-back-to-top-margin: 20px;
   
   // font
@@ -26,7 +26,7 @@
   :root {
     @include breakpoint(md) {
       // back-to-top
-      --cd-back-to-top-size: 60px;
+      --cd-back-to-top-size: 256px;
       --cd-back-to-top-margin: 30px;
     }
   }
@@ -40,7 +40,7 @@
   height: var(--cd-back-to-top-size);
   width: var(--cd-back-to-top-size);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  background: url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  background: url(images/uparrow1.png) no-repeat center 50%;
   background-color: alpha(var(--cd-color-3), 0.8);
 }
 

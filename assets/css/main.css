@@ -2081,7 +2081,22 @@ input, select, textarea {
 			line-height: 1;
 			padding: 1em 0 0 0;
 		}
+	#header1 {
+		position: relative;
+		background: #ffffff;
+		border-bottom: solid 1px #ccc;
+		padding: 5em 0 4em 0;
+		text-align: center;
+	}
 
+		#header1 h1 {
+			color: #252122;
+			font-weight: 900;
+			font-size: 2em;
+			letter-spacing: -0.035em;
+			line-height: 1;
+			padding: 1em 0 0 0;
+		}
 /* Nav */
 
 	#nav {
@@ -2468,7 +2483,9 @@ scale(1.1)
 			#header {
 				padding: 4em 0 3em 0;
 			}
-
+#header1 {
+				padding: 2em 0 3em 0;
+			}
 		/* Banner */
 
 			#banner {
@@ -2559,6 +2576,10 @@ scale(1.1)
 
 			#header {
 				padding: 3.5em 0 3em 0;
+			}
+			
+			#header1 {
+				padding: 3em 0 3em 0;
 			}
 
 		/* Nav */
