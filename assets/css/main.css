@@ -2194,13 +2194,13 @@ input, select, textarea {
 		background: #CCE8F4 url("../../images/mainimg.png");
 		background-position: center center;
 		width:100%;
-		height: 25em;
+		height: 15em;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		padding: 3em 0;
-/* 		margin: 0 0 0 0;
- */	}
+		padding:15em 0;
+ 		margin: 0 0 0 0;
+ 	}
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
@@ -2229,7 +2229,7 @@ input, select, textarea {
 				
 			}
 			#banner:hover #iot2{
-				position: relative;
+				position: absolute;
 				-webkit-animation-name: momo; /* Safari 4.0 - 8.0 */
 				-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
 				animation-name:momo;
@@ -2246,7 +2246,7 @@ input, select, textarea {
 			100% {opacity:1;}
 			}
 			#banner:hover #data2{
-				position: relative;
+				position:  absolute;
 				-webkit-animation-name: momo2; /* Safari 4.0 - 8.0 */
 				-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
 				animation-name:momo2;
@@ -2262,7 +2262,7 @@ input, select, textarea {
 			100% {left:0em; top:0em;}
 			}
 	#banner:hover #server2{
-				position: relative;
+				position:absolute;
 				-webkit-animation-name: momo3; /* Safari 4.0 - 8.0 */
 				-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
 				animation-name:momo3;
@@ -2278,7 +2278,7 @@ input, select, textarea {
 			100% {opacity:1;}
 			}
 				#banner:hover #server3{
-				position: relative;
+				position: absolute;
 				-webkit-animation-name: momo4; /* Safari 4.0 - 8.0 */
 				-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
 				animation-name:momo4;
@@ -2289,9 +2289,9 @@ input, select, textarea {
 			}
 			@-webkit-keyframes momo4 {
 	
-			0%   {left:0em; top:-2em;}
+			0%   {left:0em; top:0em;}
 
-			100% {left:0em; top:0em;}
+			100% {left:0em; top:1em;}
 			}
 
 /* Intro */
@@ -2489,8 +2489,8 @@ scale(1.1)
 		/* Banner */
 
 			#banner {
-				padding: 6em 0;
-				margin: 3em 0 0 0;
+				padding: 15em 0;
+				margin: 6em 0 0 0;
 			}
 
 		/* Intro */
@@ -2974,8 +2974,8 @@ scale(1.1)
 		/* Banner */
 
 			#banner {
-				padding: 6em 0;
-				margin: 2em 0 0 0;
+				padding: 15em 0;
+				margin:8em 0 0 0;
 			}
 
 				#banner header {
