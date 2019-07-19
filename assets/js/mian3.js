@@ -32,7 +32,7 @@
 (function(){
     // Back to Top - by CodyHouse.co
 	var backTop = document.getElementsByClassName('js-cd-top2')[0],
-		offset = 150, // browser window scroll (in pixels) after which the "back to top" link is shown
+		offset = 220, // browser window scroll (in pixels) after which the "back to top" link is shown
 		offsetOpacity = 1200, //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 		//scrollDuration = 700,
 		scrolling = false;
@@ -63,7 +63,7 @@
 (function(){
     // Back to Top - by CodyHouse.co
 	var backTop = document.getElementsByClassName('js-cd-top3')[0],
-		offset = 150, // browser window scroll (in pixels) after which the "back to top" link is shown
+		offset = 320, // browser window scroll (in pixels) after which the "back to top" link is shown
 		offsetOpacity = 1200, //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 		//scrollDuration = 700,
 		scrolling = false;
